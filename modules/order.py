@@ -5,5 +5,5 @@ class Order(BaseModel):
     name: str
     email: EmailStr
     product: str
-    qunatity: PositiveInt
+    quantity: PositiveInt
     unit_value: PositiveInt
